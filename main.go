@@ -43,7 +43,7 @@ func AskChar() byte {
 	return buf
 }
 
-//Check the given number is prime
+//Check the given number is a prime number
 func IsPrime(num int) bool {
 	if num < 2 {
 		return false
